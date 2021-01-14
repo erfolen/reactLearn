@@ -11,6 +11,7 @@
     align-items: center;
     height: 50px;
     padding: 0 20px;
+    text-transform:uppercase;
 }
 .item a.active {
     color: #282c34;

@@ -1,0 +1,27 @@
+.navbar {
+    width: 27%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    background-color:lightgray;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.nav {
+    padding: 20px;
+}
+.name {
+    background-color: indianred;
+    text-align: center;
+}
+.item {
+    margin: 8px 0;
+}
+.item a {
+    text-decoration: none;
+    color: #000000;
+}
+.item a:hover {
+    color: indianred;
+}
+
