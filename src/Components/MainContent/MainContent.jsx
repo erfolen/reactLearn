@@ -1,11 +1,12 @@
 import React from "react";
 import {Route} from "react-router-dom";
+import HomeContent from "./HomeContent/HomeContent";
 
 const MainContent = () => {
     return (
         <div>
            MainContent
-            <Route exact path='/' render={() => <MainContent />}/>
+            <Route exact path='/' render={() => <HomeContent />}/>
             {/* <Route path='/o-nas' render={()=><Onas />} />
               <Route path='/poleznai-information' render={()=><PoleznaiInformation />} />
               <Route path='/stoimost' render={()=><Stoimost />} />
