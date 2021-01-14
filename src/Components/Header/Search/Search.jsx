@@ -1,5 +1,7 @@
 import React from "react";
 import style from './Search.module.css';
+//import icon from './../../../img/search.jpg'
+
 
 const Search = () => {
     return (
@@ -7,9 +9,8 @@ const Search = () => {
             <div className={style.catalog}>
                 Весь каталог
             </div>
-            <textarea></textarea>
-            <img className={style.icon} />
-
+            <textarea className={style.text}></textarea>
+            <button className={style.button}>{/*<img className={style.icon} src={icon} />*/}</button>
 
         </div>
     )
