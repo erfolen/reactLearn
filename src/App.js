@@ -12,8 +12,8 @@ const App = () => {
     return (
         <div className="app-wrapper">
             <Header />
-            <NavBar />
             <TopBar />
+            <NavBar />
             <Articles />
             <MainContent />
             <Otzivi />

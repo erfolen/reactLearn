@@ -4,9 +4,7 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    margin-left: 50px;
     justify-content: right;
-    margin-right: 50px;
 }
 .catalog {
     border: 1px solid;
